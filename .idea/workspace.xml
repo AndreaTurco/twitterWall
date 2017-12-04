@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff911d10-db72-400a-861c-e810d91e9d81" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/twitter_wall.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.php_cs.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/AppCache.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error403.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error500.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.ca.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.cs.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.de.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.en.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.es.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.fr.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.hr.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.id.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.it.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.ja.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.nl.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.pl.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.pt_BR.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.ro.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.ru.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.sl.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.uk.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/messages.zh_CN.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.ca.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.cs.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.de.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.en.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.es.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.fr.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.hr.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.id.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.it.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.ja.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.nl.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.pl.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.pt_BR.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.ro.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.ru.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.sl.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.uk.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/translations/validators.zh_CN.xlf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/blog/_delete_form.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/blog/_form.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/blog/edit.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/blog/index.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/blog/new.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/blog/show.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/admin/layout.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/_comment_form.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/_delete_post_confirmation.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/_post_tags.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/_rss.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/about.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/comment_form_error.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/index.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/index.xml.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/post_show.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/blog/search.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/_flash_messages.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/homepage.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/form/fields.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/form/layout.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/security/login.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/config_test.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/appveyor.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/admin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/highlight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.instantSearch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/login.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/js/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/admin.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/app.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/scss/bootstrap-tagsinput.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Command/AddUserCommand.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Command/DeleteUserCommand.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Command/ListUsersCommand.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/BlogController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/BlogController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/FixturesTrait.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/PostFixtures.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/TagFixtures.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/UserFixtures.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Comment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Post.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Tag.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/EventListener/CheckRequirementsSubscriber.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/EventListener/CommentNotificationSubscriber.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/EventListener/RedirectToPreferredLocaleSubscriber.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Events.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Form/CommentType.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Form/DataTransformer/TagArrayToStringTransformer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Form/PostType.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Form/Type/DateTimePickerType.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Form/Type/TagsInputType.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/PostRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Security/PostVoter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Twig/AppExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Utils/Markdown.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Utils/MomentFormatConverter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Utils/Slugger.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Utils/TwitterAPIExchange.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Utils/Validator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CodeExplorerBundle/CodeExplorerBundle.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CodeExplorerBundle/DependencyInjection/CodeExplorerExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CodeExplorerBundle/EventListener/ControllerListener.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CodeExplorerBundle/Resources/config/services.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CodeExplorerBundle/Resources/views/source_code.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/CodeExplorerBundle/Twig/SourceCodeExtension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Command/AddUserCommandTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/Admin/BlogControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/BlogControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Controller/DefaultControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Form/DataTransformer/TagArrayToStringTransformerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Utils/SluggerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/AppBundle/Utils/ValidatorTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/cache/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/data/blog.sqlite" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/data/blog_test.sqlite" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/logs/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/var/sessions/.gitkeep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/app.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/css/admin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/css/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-bold-italic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-bold-italic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-bold.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-normal-italic.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-normal-italic.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-normal.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/fonts/lato-normal.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/images/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/js/admin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/js/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/js/login.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/js/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/manifest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/build/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/robots.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BlogController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding>
+                <element signature="e#1307#1911#0#PHP" expanded="false" />
+                <element signature="e#1916#2374#0#PHP" expanded="false" />
+                <element signature="e#2380#2764#0#PHP" expanded="false" />
+                <element signature="e#2769#3482#0#PHP" expanded="false" />
+                <element signature="e#3429#3455#0#PHP" expanded="true" />
+                <element signature="e#6921#6956#0#PHP" expanded="true" />
+                <element signature="e#7580#7610#0#PHP" expanded="true" />
+                <element signature="e#7967#7990#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/BlogController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="171048ff-683b-4513-9312-3d5e98ef0fc1" name="localhost" port="8000" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/white-october/pagerfanta-bundle" />
+      <path value="$PROJECT_DIR$/vendor/dama/doctrine-test-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/j7mbo/twitter-api-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php54" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/gecko-packages/gecko-php-unit" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="896" />
+    <option name="y" value="-1058" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="twitter_wall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_wall" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter_wall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_wall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter_wall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_wall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter_wall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_wall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter_wall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_wall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter_wall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_wall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter_wall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_wall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="run base page" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/en/blog/twitter" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff911d10-db72-400a-861c-e810d91e9d81" name="Default" comment="" />
+      <created>1512375924559</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512375924559</updated>
+      <workItem from="1512375925999" duration="1632000" />
+      <workItem from="1512405778766" duration="211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1843000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="896" y="-1058" width="1920" height="1058" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24255319" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13085106" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.157082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1307#1911#0#PHP" expanded="false" />
+            <element signature="e#1916#2374#0#PHP" expanded="false" />
+            <element signature="e#2380#2764#0#PHP" expanded="false" />
+            <element signature="e#2769#3482#0#PHP" expanded="false" />
+            <element signature="e#3429#3455#0#PHP" expanded="true" />
+            <element signature="e#6921#6956#0#PHP" expanded="true" />
+            <element signature="e#7580#7610#0#PHP" expanded="true" />
+            <element signature="e#7967#7990#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="e#1307#1911#0#PHP" expanded="false" />
+            <element signature="e#1916#2374#0#PHP" expanded="false" />
+            <element signature="e#2380#2764#0#PHP" expanded="false" />
+            <element signature="e#2769#3482#0#PHP" expanded="false" />
+            <element signature="e#3429#3455#0#PHP" expanded="true" />
+            <element signature="e#6921#6956#0#PHP" expanded="true" />
+            <element signature="e#7580#7610#0#PHP" expanded="true" />
+            <element signature="e#7967#7990#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
